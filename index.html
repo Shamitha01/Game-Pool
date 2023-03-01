@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="Game Adda" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="waviy">
+      <span style="--i:1">G</span>
+      <span style="--i:2">A</span>
+      <span style="--i:3">M</span>
+      <span style="--i:4">E</span>
+      <span style="--i:5">P</span>
+      <span style="--i:6">O</span>
+      <span style="--i:7">O</span>
+      <span style="--i:8">L</span>
+     </div>
+    <div id="myBtnContainer" class="butt">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('single')">Single Player</button>
+  <button class="btn" onclick="filterSelection('multi')"> Multi Player</button>
+    </div>
+
+    <div class="games">
+      <div class="card single">
+        <div class="guess">
+          <img src="images/guess.png" alt="Guess a number" />
+          <h2>Guess Number</h2>
+        </div>
+        <a href="Guess-number/index.html"><button>PLAY</button></a>
+      </div>
+      <div class="card multi">
+        <div class="roll">
+          
+            <img src="images/roll.png" alt="Roll a dice"
+          />
+          <h2>Roll A Dice</h2>
+        </div>
+        <a href="Roll-Dice/instruction.html"><button>PLAY</button></a> 
+      </div>
+      <div class="card multi">
+        <div class="tic">
+          <img src="images/tic.png" alt="Tic tac toe"
+          /></a>
+          <h2>Tic Tac Toe</h2>
+        </div>
+        <a href="tic tac toe/index.html"
+            ><button>PLAY</button></a>
+      </div>
+      <div class="card single">
+        <div class="mole">
+          <img src="images/mole.png" alt="Whack a mole"
+          /></a>
+          <h2>Whack A Mole</h2>
+        </div>
+        <a href="whack-a-mole/index.html"
+        > <button>PLAY</button></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
