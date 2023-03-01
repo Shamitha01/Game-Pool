@@ -153,7 +153,7 @@ button:hover::before {
   box-shadow: 0.3em 0.3em 0.9em #ffffff;
 }
 .butt {
-  margin: 50px 0;
+  margin: 40px 0;
   display: flex;
   width: 50%;
   justify-content: space-between;
